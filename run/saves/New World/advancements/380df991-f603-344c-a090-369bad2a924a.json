@@ -1,7 +1,8 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:bamboo_jungle": "2023-03-04 22:11:59 +0100"
+      "minecraft:bamboo_jungle": "2023-03-04 22:11:59 +0100",
+      "minecraft:beach": "2023-03-04 22:53:15 +0100"
     },
     "done": false
   },
