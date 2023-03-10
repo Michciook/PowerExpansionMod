@@ -1,3 +1,9 @@
 {
-  "item.powerexpansion.steel_ingot": "Steel Ingot"
+  "item.powerexpansion.steel_ingot": "Steel Ingot",
+  "item.powerexpansion.steel_plate": "Steel Plate",
+
+  "block.powerexpansion.block_of_steel":  "Block of Steel",
+
+
+  "creativemodetab.powerexpansion_tab": "Power Expansion"
 }
