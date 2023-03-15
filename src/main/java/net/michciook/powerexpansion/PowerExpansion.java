@@ -46,6 +46,7 @@ public class PowerExpansion {
             event.accept(ModItems.STEEL_INGOT);
             event.accept(ModItems.STEEL_PLATE);
             event.accept(ModBlocks.BLOCK_OF_STEEL);
+            event.accept(ModBlocks.TIN_ORE);
         }
     }
 
