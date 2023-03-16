@@ -44,9 +44,16 @@ public class PowerExpansion {
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == ModCreativeModeTabs.POWER_EXPANSION) {
             event.accept(ModItems.STEEL_INGOT);
+            event.accept(ModItems.STEEL_NUGGET);
             event.accept(ModItems.STEEL_PLATE);
+            event.accept(ModItems.RAW_TIN);
+            event.accept(ModItems.TIN_INGOT);
+            event.accept(ModItems.TIN_NUGGET);
+            event.accept(ModItems.TIN_PLATE);
             event.accept(ModBlocks.BLOCK_OF_STEEL);
             event.accept(ModBlocks.TIN_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
+            event.accept(ModBlocks.TIN_BLOCK);
         }
     }
 

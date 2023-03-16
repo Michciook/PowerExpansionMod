@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "powerexpansion:tin_ore"
+    "powerexpansion:tin_ore",
+    "powerexpansion:deepslate_tin_ore"
   ]
 }

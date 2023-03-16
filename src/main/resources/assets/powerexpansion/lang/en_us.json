@@ -1,9 +1,17 @@
 {
   "item.powerexpansion.steel_ingot": "Steel Ingot",
   "item.powerexpansion.steel_plate": "Steel Plate",
+  "item.powerexpansion.steel_nugget": "Steel Nugget",
+
+  "item.powerexpansion.raw_tin": "Raw Tin",
+  "item.powerexpansion.tin_ingot": "Tin Ingot",
+  "item.powerexpansion.tin_nugget": "Tin Nugget",
+  "item.powerexpansion.tin_plate": "Tin Plate",
 
   "block.powerexpansion.block_of_steel":  "Block of Steel",
   "block.powerexpansion.tin_ore":  "Tin Ore",
+  "block.powerexpansion.deepslate_tin_ore":  "Deepslate Tin Ore",
+  "block.powerexpansion.tin_block":  "Tin Block",
 
 
   "creativemodetab.powerexpansion_tab": "Power Expansion"

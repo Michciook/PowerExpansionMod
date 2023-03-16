@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "powerexpansion:tin_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "powerexpansion:tin_ingot"
+  }
+}

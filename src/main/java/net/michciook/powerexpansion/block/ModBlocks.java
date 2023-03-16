@@ -20,10 +20,18 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BLOCK_OF_STEEL = registerBlock("block_of_steel",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(6f).requiresCorrectToolForDrops()));
+                    .strength(3f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> TIN_ORE = registerBlock("tin_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(2f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> DEEPSLATE_TIN_ORE = registerBlock("deepslate_tin_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> TIN_BLOCK = registerBlock("tin_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(3f).requiresCorrectToolForDrops()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

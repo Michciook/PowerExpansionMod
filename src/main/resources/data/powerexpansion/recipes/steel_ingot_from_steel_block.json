@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "powerexpansion:block_of_steel"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "powerexpansion:steel_ingot"
+  }
+}
